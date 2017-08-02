@@ -1,3 +1,64 @@
+* {
+  margin: 0;
+  padding: 0; }
 
+.bienvenida {
+  background-image: url(../img/christopher-sardegna-157.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  height: 100vh; }
+
+.navbar-default {
+  background-color: transparent;
+  border: none; }
+
+/*IMPORTANTE para cambiar color letra enlaces*/
+.navbar-default .navbar-nav > li > a {
+  color: #bb5a5a;
+  font-weight: bolder; }
+
+.boton {
+  border-radius: 50px;
+  background-color: #bb5a5a;
+  border: none;
+  color: #eaceb4;
+  margin-top: 500px; }
+
+.segunda-seccion {
+  background-color: #bc4f4f;
+  height: 80vh; }
+
+.titulo-acercademi {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  color: #f3cd97;
+  font-weight: bolder;
+  font-size: 60px; }
+
+.parrafo-acercademi {
+  color: #f3cd97;
+  font-weight: bolder;
+  font-size: 15px; }
+
+.tercera-seccion {
+  background-color: whitesomoke;
+  height: 80vh; }
+
+.seccion-foto {
+  background-image: url(../img/bryan-minear-317365.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  height: 80vh; }
+
+.informacion {
+  background-color: #bc4f4f;
+  height: 80vh; }
 
 /*# sourceMappingURL=main.css.map */
