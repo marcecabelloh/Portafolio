@@ -44,6 +44,10 @@
   font-weight: bolder;
   font-size: 15px; }
 
+.img-perfil {
+  margin-top: -60px;
+  border: 6px solid #f3cd97; }
+
 .tercera-seccion {
   background-color: whitesomoke;
   height: 80vh; }
@@ -56,6 +60,12 @@
   background-attachment: fixed;
   color: white;
   height: 80vh; }
+
+.portafolio {
+  height: 100vh; }
+
+.img-portafolio:hover {
+  filter: opacity(0.5); }
 
 .informacion {
   background-color: #bc4f4f;
