@@ -4,7 +4,7 @@
 }
 
 .bienvenida{
-	background-image: url(../img/christopher-sardegna-157.jpg);
+	background-image: url(../img/joshua-k-jackson-261210.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -15,7 +15,8 @@
 
 
 .navbar-default{
-	background-color: transparent;
+
+
 	border: none;
 }
 
@@ -25,28 +26,6 @@
 	font-weight:bolder;
 }
 
-.contenido-tipeo{
-	background-color:black;
-	height:80vh;
-	color:white;
-}
-
-
-/* efecto especial tipeo automático*/
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
-
-h1 { 
-	font: bold 300% Consolas, Monaco, monospace;
-	border-right: .1em solid black;
-	width: 90%; 
-	/*width: 21ch;*/
-	margin: 2em 1em;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 10s steps(21, end),
-	           blink-caret .5s step-end infinite alternate;
-}/*término efecto*/
 
 .segunda-seccion{
 	background-color: #bc4f4f;
@@ -73,9 +52,29 @@ h1 {
 	border: 6px solid #f3cd97;
 }
 
+.img-pc{
+	background-image: url(../img/william-iven-8515.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	color: white;
+	height:70vh;
+}
+
+.img-pc-perro{
+	background-image: url(../img/nick-turner-2570.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	color: white;
+	height:70vh;
+}
+
 .tercera-seccion{
-	background-color:whitesomoke;
-	height:80vh;
+	background-color:#E98B50;
+	height:100vh;
 }
 
 .seccion-foto{
@@ -89,6 +88,7 @@ h1 {
 }
 .portafolio{
 	height:100vh;
+	background-color:#BC4F4F;
 }
 
 .img-portafolio:hover{
@@ -98,10 +98,14 @@ h1 {
 .informacion{
 	background-color:#bc4f4f;
 	height:80vh;
+	color:#f3cd97;
 }
 
 .devicon{
 	font-size:100px;
+	color:white;
 }
 
-
+.fa{
+	color:white;
+}
