@@ -11,34 +11,51 @@
   color: white;
   height: 100vh; }
 
-.navbar-default {
-  border: none; }
+.row {
+  margin-bottom: 0px; }
 
-/*IMPORTANTE para cambiar color letra enlaces*/
-.navbar-default .navbar-nav > li > a {
-  color: #bb5a5a;
-  font-weight: bolder; }
+nav {
+  background-color: transparent !important; }
+
+.navbar-fixed {
+  margin-left: 450px; }
 
 .segunda-seccion {
-  background-color: #bc4f4f;
-  height: 80vh; }
+  background-color: #f7d098;
+  height: auto;
+  padding: 60px; }
 
 .titulo-acercademi {
   font-family: 'Playfair Display', serif;
   font-family: 'Indie Flower', cursive;
   margin-top: 50px;
-  color: #f3cd97;
+  color: #911f27;
+  font-weight: bolder;
+  font-size: 60px; }
+
+.titulo-skills {
+  color: #f7d098;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 60px; }
+
+.titulo-portafolio {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  color: #911f27;
   font-weight: bolder;
   font-size: 60px; }
 
 .parrafo-acercademi {
-  color: #f3cd97;
+  color: #911f27;
   font-weight: bolder;
   font-size: 15px; }
 
 .img-perfil {
-  margin-top: -60px;
-  border: 6px solid #f3cd97; }
+  border: 6px solid #911f27; }
 
 .img-pc {
   background-image: url(../img/william-iven-8515.jpg);
@@ -47,7 +64,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
-  height: 70vh; }
+  height: 80vh; }
 
 .img-pc-perro {
   background-image: url(../img/nick-turner-2570.jpg);
@@ -56,11 +73,12 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
-  height: 70vh; }
+  height: 80vh; }
 
 .tercera-seccion {
-  background-color: #E98B50;
-  height: 100vh; }
+  background-color: #911f27;
+  height: auto;
+  padding: 60px; }
 
 .seccion-foto {
   background-image: url(../img/bryan-minear-317365.jpg);
@@ -69,25 +87,38 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
-  height: 80vh; }
+  height: 70vh; }
 
 .portafolio {
-  height: 100vh;
-  background-color: #BC4F4F; }
+  height: auto;
+  background-color: #fcf0c8;
+  padding: 50px; }
 
 .img-portafolio:hover {
   filter: opacity(0.5); }
 
 .informacion {
-  background-color: #bc4f4f;
-  height: 80vh;
-  color: #f3cd97; }
+  background-color: #630a10;
+  height: auto;
+  color: #f3cd97;
+  padding: 60px; }
 
 .devicon {
   font-size: 100px;
-  color: white; }
+  color: #f7d098; }
 
 .fa {
   color: white; }
+
+#logo {
+  animation-name: logo;
+  animation-duration: 2s;
+  animation-fill-mode: forwards; }
+
+@keyframes logo {
+  0% {
+    transform: translateY(-50%); }
+  80% {
+    transform: translateY(10%); } }
 
 /*# sourceMappingURL=main.css.map */

@@ -10,11 +10,14 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
-	 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+	<link rel="stylesheet" type="text/css" src="assets/sass/animacion/animate.css">
+
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -22,36 +25,23 @@
 <!-- primera seccion -->
 	<section class="bienvenida">
 		<!-- navbar -->
-		<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						</button>
-					<a class="navbar-brand logo" href="#">Start Bootstrap</a>
-				</div>
-
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 links">
-					<ul class="nav navbar-nav navbar-right" >
-						<li><a href="#">Acerca de mí</a></li>
-						<li><a href="#">Skills</a></li>
-						<li><a href="#">Portafolio</a></li>
-						<li><a href="#">Contacto</a></li>
-						<li><a href="#">MENÚ</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
+		<nav>
+			<div class="navbar-fixed">
+				<ul class="center hide-on-med-and-down">
+					<li><a class="dropdown-button fuente-nav" href="#segunda-seccion" data-activates="dropdown1">Acerca de Mí</a></li>
+					<li><a class="dropdown-button fuente-nav" href="#tercera-seccion" data-activates="dropdown2">Skills</a></li>
+					<li><a href="#portafolio" class="fuente-nav">Portafolio</a></li>
+					<li><a href="#informacion" class="fuente-nav">Contacto</a></li>    
+				</ul>
+			</div>
 		</nav> <!-- aca termina el navbar -->
 <!-- inicio sección home -->
 
-	<div class="container">
+	<div class="container center">
 			<div class="row">
-				<div class="col-md-12 col-xs-12">
+				<div class="col xl12 l12 m12 xs12">
 					<div class="contenido-home">
-						<img src="img/logomarce-03.png" class="img-responsive logo center-block " width="450">
+						<img src="img/logomarce-03.png" id="logo" class="responsive-img logo center" width="400">
 					</div>
 				</div>
 			</div>
@@ -61,19 +51,19 @@
 <!-- termino sección home -->
 
 <!-- segunda-seccion -->
-<section class="segunda-seccion">
+<section class="segunda-seccion center" id="segunda-seccion">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
-						<h3 class="titulo-acercademi text-center">Acerca de Mí</h3>
+			<div class="col xl12 l12 m12 xs12">
+						<h3 class="titulo-acercademi">Acerca de Mí</h3>
 						</div>
 					<div class="row">
-					<div class="col-md-7 col-xs-12 text-left"><br><br><br><br>
+					<div class="col xl8 l8 m8 xs6 left">
 						<p class="parrafo-acercademi">Hola! Mi nombre es Marcela Cabello, soy desarrolladora Front-End, disfruto del trabajo en equipo y me encanta aprender cosas nuevas y desafiantes. Mi inquietud de conocimientos me llevó a estudiar programación web, siendo hoy en día una pasión y un reto constante. 
-						Me define mi inquietud por adquirir conocimientos nuevos, me apasiona la investigación y los desafíos, los que enfrento con ánimo y determinación. Creo firmemente que el trabajo en equipo es la mejor forma de trabajar, por lo que disfruto de compartir con los demás. Arqueóloga de profesión, el desarrollo web se convirtió en mi pasión y en un reto constante. En mis tiempos libres practico yoga, deportes en general e investigar en la web. </p>
+						Me define mi inquietud por adquirir conocimientos nuevos, me apasiona la investigación y los desafíos, los que enfrento con ánimo y determinación. Creo firmemente que el trabajo en equipo es la mejor forma de trabajar, por lo que disfruto de compartir con los demás. Arqueóloga de profesión, el desarrollo web se convirtió en mi pasión y en un reto constante. En mis tiempos libres practico yoga, deportes en general e investigar en la web.</p>
 					</div>
-					<div class="col-md-5 col-xs-12 text-left"><br><br><br><br>
-						<img src="img/Snapshot_20130108_14.jpg" alt="foto de perfil" class="img-responsive img-circle img-perfil" width="250">
+					<div class="col xl4 l4 m4 xs6">
+						<img src="img/Snapshot_20130108_14.jpg" alt="foto de perfil" class="center-alignresponsive-img circle img-perfil" width="250">
 					</div>
 					</div>
 				</div>
@@ -86,64 +76,127 @@
 <section class="img-pc">
 	<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-xs-12">
+				<div class="col xl12 l12 m12 xs12">
 					
 				</div>
 			</div>
 		</div>
 </section>
 <!-- tercera-seccion -->
-<section class="tercera-seccion">
+<section class="tercera-seccion center hide-on-small-only" id="tercera-seccion">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
-						<h3 class="titulo-acercademi">Skills</h3><br><br>
+			<div class="col xl12 l12 m12 xs12 text-center">
+						<h3 class="titulo-skills">Skills</h3>
 						</div>
 						<div class="row">
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-javascript-plain devicon"></i>
 							</div>
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-css3-plain-wordmark devicon"></i>	
 							</div>
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-html5-plain-wordmark devicon"></i>
 							</div>
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-gulp-plain devicon"></i>
 							</div>
 						</div><br>
 						<div class="row">
-							<div class="col-md-3 col-xs-12 text-center"> 
+							<div class="col xl3 l3 m3 xs3 responsive-img"> 
 								<i class="devicon-github-plain-wordmark devicon"></i>
 							</div>
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-jquery-plain devicon"></i>
 							</div>
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-nodejs-plain devicon"></i>
 							</div>
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-sass-original devicon"></i>
 							</div>
 						</div><br>
 					
 
 						<div class="row">
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-slack-plain devicon"></i>
 							</div>
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-trello-plain devicon"></i>
 							</div>
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-bootstrap-plain devicon"></i>
 							</div>
-							<div class="col-md-3 col-xs-12 text-center">
+							<div class="col xl3 l3 m3 xs3 responsive-img">
 								<i class="devicon-git-plain devicon"></i>
 							</div>
 								</div><br>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="tercera-seccion center hide-on-large-only hide-on-med-only hide-on-med-and-down hide-on-med-and-up" id="tercera-seccion">
+	<div class="container">
+		<div class="row">
+			<div class="col xl12 l12 m12 xs12">
+						<h3 class="titulo-skills">Skills</h3><br><br>
+						</div>
+						</div>
+						<div class="row">
+							<div class="col xs4 responsive-img">
+								<i class="devicon-javascript-plain devicon"></i>
+							</div>
+							<div class="col xs4 responsive-img">
+								<i class="devicon-css3-plain-wordmark devicon"></i>	
+							</div>
+							<div class="col xs4 responsive-img">
+								<i class="devicon-html5-plain-wordmark devicon"></i>
+							</div>
+							
+						</div><br>
+						<div class="row">
+							<div class="col xs4 responsive-img">
+								<i class="devicon-gulp-plain devicon"></i>
+							</div>
+							<div class="col xs4 responsive-img"> 
+								<i class="devicon-github-plain-wordmark devicon"></i>
+							</div>
+							<div class="col xs4 responsive-img">
+								 <i class="devicon-jquery-plain-wordmark devicon"></i>
+							</div>
+						</div><br>
+					
+
+						<div class="row">
+							<div class="col xs4 responsive-img">
+								<i class="devicon-nodejs-plain devicon"></i>
+							</div>
+							<div class="col xs4 responsive-img">
+								<i class="devicon-sass-original devicon"></i>
+							</div>
+							<div class="col xs4 responsive-img">
+								<i class="devicon-slack-plain devicon"></i>
+							</div>
+								</div><br>
+
+							<div class="row">
+							<div class="col xs4 responsive-img">
+								<i class="devicon-trello-plain devicon"></i>
+							</div>
+							<div class="col xs4 responsive-img">
+								<i class="devicon-bootstrap-plain devicon"></i>
+							</div>
+							<div class="col xs4 responsive-img">
+								<i class="devicon-git-plain devicon"></i>
+							</div>
+							</div>			
 						</div>
 					</div>
 				</div>
@@ -156,45 +209,45 @@
 <section class="img-pc-perro">
 	<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-xs-12">
+				<div class="col xl12 l12 m12 xs12">
 					
 				</div>
 			</div>
 		</div>
 </section>
 <!-- portafolio-->
-<section class="portafolio">
+<section class="portafolio" id="portafolio">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
-						<h3 class="titulo-acercademi">Portafolio</h3><br><br>
+			<div class="col xl12 l12 m12 xs12">
+						<h3 class="titulo-portafolio">Portafolio</h3><br><br>
 						</div>
 					<div class="row">
-					<div class="col-md-4 col-xs-12 text-center">
-						<img src="img/sa-the-koala.png" alt="imagenes de trabajos desarrollo web" class="img-responsive img-portafolio thumbnail" width="500">
+					<div class="col xl4 l4 m4 xs12">
+						<img src="img/sa-the-koala.png" alt="imagenes de trabajos desarrollo web" class="responsive-img img-portafolio">
 					</div>
 
-					<div class="col-md-4 col-xs-12 text-center">
-						<img src="img/lab-studio.png" alt="imagenes de trabajos desarrollo web" class="img-responsive img-portafolio thumbnail" width="500">
+					<div class="col xl4 l4 m4 xs12">
+						<img src="img/lab-studio.png" alt="imagenes de trabajos desarrollo web" class="responsive-img img-portafolio">
 					</div>
 
-					<div class="col-md-4 col-xs-12 text-center">
-						<img src="img/labcar.png" alt="imagenes de trabajos desarrollo web" class="img-responsive img-portafolio thumbnail" width="500">
+					<div class="col xl4 l4 m4 xs12">
+						<img src="img/labcar.png" alt="imagenes de trabajos desarrollo web" class="responsive-img img-portafolio">
 					</div>
 					</div>
 
 					<div class="row">
-					<div class="col-md-4 col-xs-12 text-center">
-						<img src="img/translab.png" alt="imagenes de trabajos desarrollo web" class="img-responsive img-portafolio thumbnail" width="500">
+					<div class="col xl4 l4 m4 xs12">
+						<img src="img/translab.png" alt="imagenes de trabajos desarrollo web" class="responsive-img img-portafolio">
 					</div>
 
-					<div class="col-md-4 col-xs-12 text-center">
-						<img src="img/google-design.png" alt="imagenes de trabajos desarrollo web" class="img-responsive img-portafolio thumbnail" width="500">
+					<div class="col xl4 l4 m4 xs12">
+						<img src="img/google-design.png" alt="imagenes de trabajos desarrollo web" class="responsive-img img-portafolio">
 					</div> 
 
-					<div class="col-md-4 col-xs-12 text-center">
-						<img src="img/portafolio-sass.png" alt="imagenes de trabajos desarrollo web" class="img-responsive img-portafolio thumbnail" width="500">
-					</div>
+					<div class="col xl4 l4 m4 xs12 text-center">
+						<img src="img/portafolio-sass.png" alt="imagenes de trabajos desarrollo web" class="responsive-img img-portafolio">
+	
 					</div>
 				</div>
 			</div>
@@ -207,7 +260,7 @@
 <section class="seccion-foto">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
+			<div class="col xl12 l12 m12 xs12 text-center">
 				</div>
 			</div>
 		</div>
@@ -216,21 +269,21 @@
 <!-- tercera-seccion -->
 
 <!-- informacion-->
-<section class="informacion">
+<section class="informacion center" id="informacion">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
-						<h3 class="titulo-acercademi">Encuéntrame!</h3><br><br>
+			<div class="col xl12 l12 m12 xs12">
+						<h3 class="titulo-acercademi hide-on-small-only">Encuéntrame!</h3>
 						</div>
 					<div class="row">
-					<div class="col-md-6 col-xs-12 text-center">
+					<div class="col xl6 l6 m6 xs12 text-center">
 						<i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
 						<p>marcecabello.h@gmail.com</p>
 						<i class="fa fa-mobile fa-4x" aria-hidden="true"></i>
 						<p>+569 85658813</p>
 					</div>
 
-					<div class="col-md-6 col-xs-12 text-center">
+					<div class="col xl6 l6 m6 xs12 text-center">
 						<i class="fa fa-github fa-3x" aria-hidden="true"></i>
 						<a href="https://github.com/marcecabelloh">https://github.com/marcecabelloh</a>
 						<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
@@ -244,8 +297,8 @@
 </section>
 <!-- termino seccion informacion -->
 
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 
 <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
