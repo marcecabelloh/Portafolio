@@ -5,6 +5,7 @@
 
 .bienvenida{
 	background-image: url(../img/markus-spiske-37930.jpg);
+	background-attachment:fixed;
 	@include cajaBienvenida();	
 }
 
@@ -49,11 +50,13 @@ nav{
 
 .img-pc{
 	background-image: url(../img/william-iven-8515.jpg);
+	background-attachment:fixed;
 	@include cajas();
 }
 
 .img-cafe{
 	background-image: url(../img/toa-heftiba-274947.jpg);
+	background-attachment:fixed;
 	@include cajas();
 }
 
@@ -71,10 +74,34 @@ nav{
 	@include titulo-skills();
 }
 
+.titulo-skills-mobile{
+	color:$color-caja;
+	@include titulo-skills-mobile();
+}
+
 .seccion-foto{
 	background-image:url(../img/toa-heftiba-274947.jpg);
+	background-attachment:fixed;
 	@include cajas();
 }
+
+.sec-slider{
+	@include cajas();
+}
+
+
+.slider{
+	position: absolute;
+	.slides{
+		li{
+			height:80vh;
+		}
+		.devicon{
+			font-size:100px;
+		}
+	}
+}
+
 
 .portafolio{
 	height:$height;

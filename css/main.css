@@ -4,6 +4,7 @@
 
 .bienvenida {
   background-image: url(../img/markus-spiske-37930.jpg);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,19 +58,19 @@ nav {
 
 .img-pc {
   background-image: url(../img/william-iven-8515.jpg);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   color: white;
   height: 80vh; }
 
 .img-cafe {
   background-image: url(../img/toa-heftiba-274947.jpg);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   color: white;
   height: 80vh; }
 
@@ -90,14 +91,37 @@ nav {
   font-size: 60px;
   margin-top: 10px; }
 
+.titulo-skills-mobile {
+  color: #f6f2d9;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 10px; }
+
 .seccion-foto {
   background-image: url(../img/toa-heftiba-274947.jpg);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   color: white;
   height: 80vh; }
+
+.sec-slider {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 80vh; }
+
+.slider {
+  position: absolute; }
+  .slider .slides li {
+    height: 80vh; }
+  .slider .slides .devicon {
+    font-size: 100px; }
 
 .portafolio {
   height: auto;

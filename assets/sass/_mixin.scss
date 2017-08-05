@@ -2,7 +2,6 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment:fixed;
 	color: white;
 	height:80vh;
 }
@@ -32,6 +31,15 @@
 
 @mixin titulo-skills(){
 	color:$color-titulo;
+	font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+	margin-top:50px;
+	font-weight: bolder;
+	font-size: 60px;
+	margin-top:10px;
+}
+
+@mixin titulo-skills-mobile(){
 	font-family: 'Playfair Display', serif;
     font-family: 'Indie Flower', cursive;
 	margin-top:50px;
