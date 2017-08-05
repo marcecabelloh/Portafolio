@@ -1,0 +1,61 @@
+@mixin cajas(){
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	color: white;
+	height:80vh;
+}
+
+@mixin cajaBienvenida(){
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	color: white;
+	height:100vh;
+}
+
+@mixin navbar(){
+	background-color: transparent !important;
+ 	box-shadow:none;
+}
+
+@mixin titulo-acercademi(){
+	font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+	margin-top:50px;
+	color:$color-titulo;
+	font-weight: bolder;
+	font-size: 60px;
+}
+
+@mixin titulo-skills(){
+	color:$color-titulo;
+	font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+	margin-top:50px;
+	font-weight: bolder;
+	font-size: 60px;
+	margin-top:10px;
+}
+
+@mixin titulo-portafolio(){
+	font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+	margin-top:50px;
+	color:$color-titulo;
+	font-weight: bolder;
+	font-size: 60px;
+}
+
+@mixin parrafo{
+	color:$color-parrafo;
+	font-weight: bolder;
+	font-size: 15px;
+	margin-top:100px;
+}
+
+@mixin borde(){
+	border: 6px solid $color-verde;
+}

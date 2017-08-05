@@ -4,13 +4,8 @@
 }
 
 .bienvenida{
-	background-image: url(../img/joshua-k-jackson-261210.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	color: white;
-	height:100vh;	
+	background-image: url(../img/markus-spiske-37930.jpg);
+	@include cajaBienvenida();	
 }
 
 .row{
@@ -18,119 +13,108 @@
 }
 
 nav{
- 	background-color: transparent !important;
+ 	@include navbar();
+}
+
+.fuente-nav{
+	color:$color-caja;
+	font-size:16px;
+	font-weight:bold;
 }
 
 .navbar-fixed{
-	margin-left:450px;
+	margin-left:480px;
 }
 
 .segunda-seccion{
-	background-color:#f7d098;
-	height:auto;
+	height:$height;
 	padding:60px;
-	
-}
-
-.titulo-acercademi{
-    font-family: 'Playfair Display', serif;
-    font-family: 'Indie Flower', cursive;
-	margin-top:50px;
-	color:#911f27;
-	font-weight: bolder;
-	font-size: 60px;
-}
-
-.titulo-skills{
-	color:#f7d098;
-	font-family: 'Playfair Display', serif;
-    font-family: 'Indie Flower', cursive;
-	margin-top:50px;
-	font-weight: bolder;
-	font-size: 60px;
-}
-
-.titulo-portafolio{
- 	font-family: 'Playfair Display', serif;
-    font-family: 'Indie Flower', cursive;
-	margin-top:50px;
-	color:#911f27;
-	font-weight: bolder;
-	font-size: 60px;
+	background-color:$color-caja;
+		.titulo-acercademi{
+    		@include titulo-acercademi();
+	}
 }
 
 .parrafo-acercademi{
-	color:#911f27;
-	font-weight: bolder;
-	font-size: 15px;
+	@include parrafo();
+}
+
+.titulo-contacto{
+	@include titulo-acercademi();
 }
 
 .img-perfil{
-	
-	border: 6px solid #911f27;
+	@include borde();
 }
 
 .img-pc{
 	background-image: url(../img/william-iven-8515.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	color: white;
-	height:80vh;
+	@include cajas();
 }
 
-.img-pc-perro{
-	background-image: url(../img/nick-turner-2570.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	color: white;
-	height:80vh;
+.img-cafe{
+	background-image: url(../img/toa-heftiba-274947.jpg);
+	@include cajas();
 }
 
 .tercera-seccion{
-	background-color:#911f27;
-	height:auto;
-	padding:60px;
+	height:$height;
+	padding:$padding;
+	background-color:$color-caja;
+		.devicon{
+			font-size:100px;
+			color:$color-verde;
+	}
+}
+
+.titulo-skills{
+	@include titulo-skills();
 }
 
 .seccion-foto{
-	background-image:url(../img/bryan-minear-317365.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	color: white;
-	height:70vh;
+	background-image:url(../img/toa-heftiba-274947.jpg);
+	@include cajas();
 }
 
 .portafolio{
-	height:auto;
-	background-color:#fcf0c8;
-	padding:50px;
+	height:$height;
+	padding:$padding;
+	background-color:$color-caja;
+		.titulo-portafolio{
+ 			@include titulo-portafolio();		
+	}
 }
+
+.img-portafolio{
+	@include borde();
+}
+
+.informacion{
+	height:$height;
+	color:$color-verde;
+	padding:$padding;
+	background-color:$caja-informacion;
+		.fa{
+			color:$color-verde;
+	}
+}
+
+
+
+//efecto hover sobre imagenes de portafolio
 
 .img-portafolio:hover{
 	filter: opacity(.5);
 }
 
-.informacion{
-	background-color:#630a10;
-	height:auto;
-	color:#f3cd97;
-	padding:60px;
+//efecto borde a skills cuando cursor pasa por ellas.
+
+.devicon:hover{
+border:6px solid;
+-webkit-border:6px solid;
 }
 
-.devicon{
-	font-size:100px;
-	color:#f7d098;
-}
-
-.fa{
-	color:white;
-}
+//animacion del logo 
 
 #logo{
 	animation-name: logo;

@@ -3,7 +3,7 @@
   padding: 0; }
 
 .bienvenida {
-  background-image: url(../img/joshua-k-jackson-261210.jpg);
+  background-image: url(../img/markus-spiske-37930.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,47 +15,45 @@
   margin-bottom: 0px; }
 
 nav {
-  background-color: transparent !important; }
+  background-color: transparent !important;
+  box-shadow: none; }
+
+.fuente-nav {
+  color: #f6f2d9;
+  font-size: 16px;
+  font-weight: bold; }
 
 .navbar-fixed {
-  margin-left: 450px; }
+  margin-left: 480px; }
 
 .segunda-seccion {
-  background-color: #f7d098;
   height: auto;
-  padding: 60px; }
-
-.titulo-acercademi {
-  font-family: 'Playfair Display', serif;
-  font-family: 'Indie Flower', cursive;
-  margin-top: 50px;
-  color: #911f27;
-  font-weight: bolder;
-  font-size: 60px; }
-
-.titulo-skills {
-  color: #f7d098;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Indie Flower', cursive;
-  margin-top: 50px;
-  font-weight: bolder;
-  font-size: 60px; }
-
-.titulo-portafolio {
-  font-family: 'Playfair Display', serif;
-  font-family: 'Indie Flower', cursive;
-  margin-top: 50px;
-  color: #911f27;
-  font-weight: bolder;
-  font-size: 60px; }
+  padding: 60px;
+  background-color: #f6f2d9; }
+  .segunda-seccion .titulo-acercademi {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 50px;
+    color: #3a1a02;
+    font-weight: bolder;
+    font-size: 60px; }
 
 .parrafo-acercademi {
-  color: #911f27;
+  color: #a3814f;
   font-weight: bolder;
-  font-size: 15px; }
+  font-size: 15px;
+  margin-top: 100px; }
+
+.titulo-contacto {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  color: #3a1a02;
+  font-weight: bolder;
+  font-size: 60px; }
 
 .img-perfil {
-  border: 6px solid #911f27; }
+  border: 6px solid #868160; }
 
 .img-pc {
   background-image: url(../img/william-iven-8515.jpg);
@@ -66,8 +64,8 @@ nav {
   color: white;
   height: 80vh; }
 
-.img-pc-perro {
-  background-image: url(../img/nick-turner-2570.jpg);
+.img-cafe {
+  background-image: url(../img/toa-heftiba-274947.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,39 +74,60 @@ nav {
   height: 80vh; }
 
 .tercera-seccion {
-  background-color: #911f27;
   height: auto;
-  padding: 60px; }
+  padding: 60px;
+  background-color: #f6f2d9; }
+  .tercera-seccion .devicon {
+    font-size: 100px;
+    color: #868160; }
+
+.titulo-skills {
+  color: #3a1a02;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-top: 10px; }
 
 .seccion-foto {
-  background-image: url(../img/bryan-minear-317365.jpg);
+  background-image: url(../img/toa-heftiba-274947.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
-  height: 70vh; }
+  height: 80vh; }
 
 .portafolio {
   height: auto;
-  background-color: #fcf0c8;
-  padding: 50px; }
+  padding: 60px;
+  background-color: #f6f2d9; }
+  .portafolio .titulo-portafolio {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 50px;
+    color: #3a1a02;
+    font-weight: bolder;
+    font-size: 60px; }
+
+.img-portafolio {
+  border: 6px solid #868160; }
+
+.informacion {
+  height: auto;
+  color: #868160;
+  padding: 60px;
+  background-color: #ddc79d; }
+  .informacion .fa {
+    color: #868160; }
 
 .img-portafolio:hover {
   filter: opacity(0.5); }
 
-.informacion {
-  background-color: #630a10;
-  height: auto;
-  color: #f3cd97;
-  padding: 60px; }
-
-.devicon {
-  font-size: 100px;
-  color: #f7d098; }
-
-.fa {
-  color: white; }
+.devicon:hover {
+  border: 6px solid;
+  -webkit-border: 6px solid; }
 
 #logo {
   animation-name: logo;
