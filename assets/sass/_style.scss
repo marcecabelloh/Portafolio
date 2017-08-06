@@ -7,6 +7,10 @@
 	background-image: url(../img/markus-spiske-37930.jpg);
 	background-attachment:fixed;
 	@include cajaBienvenida();	
+		.parr-developer{
+			font-size:40px;
+			font-weight:lighter;
+	}
 }
 
 .row{
@@ -30,18 +34,24 @@ nav{
 .segunda-seccion{
 	height:$height;
 	padding:60px;
-	background-color:$color-caja;
+	background-color:$color-blanco;
 		.titulo-acercademi{
     		@include titulo-acercademi();
 	}
 }
 
-.parrafo-acercademi{
-	@include parrafo();
+.linea{
+	height:2px;
+	background-color:$color-parrafo;
 }
 
-.titulo-contacto{
-	@include titulo-acercademi();
+ .linea-contacto{
+ 	height:2px;
+	background-color:$color-blanco;
+ }
+
+.parrafo-acercademi{
+	@include parrafo();
 }
 
 .img-perfil{
@@ -66,7 +76,7 @@ nav{
 	background-color:$color-caja;
 		.devicon{
 			font-size:100px;
-			color:$color-verde;
+			color:$color-titulo;
 	}
 }
 
@@ -106,7 +116,7 @@ nav{
 .portafolio{
 	height:$height;
 	padding:$padding;
-	background-color:$color-caja;
+	background-color:$color-blanco;
 		.titulo-portafolio{
  			@include titulo-portafolio();		
 	}
@@ -118,15 +128,19 @@ nav{
 
 .informacion{
 	height:$height;
-	color:$color-verde;
+	color:$color-titulo;
 	padding:$padding;
-	background-color:$caja-informacion;
+	background-color:$color-blanco;
 		.fa{
-			color:$color-verde;
+			color:$color-titulo;
 	}
 }
 
-
+.informacion{
+	.titulo-acercademi{
+		@include titulo-acercademi();
+	}
+}
 
 //efecto hover sobre imagenes de portafolio
 

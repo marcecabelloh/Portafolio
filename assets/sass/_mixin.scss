@@ -25,16 +25,17 @@
     font-family: 'Indie Flower', cursive;
 	margin-top:50px;
 	color:$color-titulo;
-	font-weight: bolder;
+	font-weight: lighter;
 	font-size: 60px;
 }
+
 
 @mixin titulo-skills(){
 	color:$color-titulo;
 	font-family: 'Playfair Display', serif;
     font-family: 'Indie Flower', cursive;
 	margin-top:50px;
-	font-weight: bolder;
+	font-weight: lighter;
 	font-size: 60px;
 	margin-top:10px;
 }
@@ -43,7 +44,7 @@
 	font-family: 'Playfair Display', serif;
     font-family: 'Indie Flower', cursive;
 	margin-top:50px;
-	font-weight: bolder;
+	font-weight: lighter;
 	font-size: 60px;
 	margin-top:10px;
 }
@@ -53,17 +54,21 @@
     font-family: 'Indie Flower', cursive;
 	margin-top:50px;
 	color:$color-titulo;
-	font-weight: bolder;
+	font-weight: lighter;
 	font-size: 60px;
 }
 
 @mixin parrafo{
 	color:$color-parrafo;
-	font-weight: bolder;
+	font-weight: bold;
 	font-size: 15px;
-	margin-top:100px;
+	margin-top:80px;
 }
 
 @mixin borde(){
-	border: 6px solid $color-verde;
+	border: 4px solid $color-parrafo;
+}
+
+@mixin bordeportafolio{
+	border:3px solid $borde-portafolio;
 }

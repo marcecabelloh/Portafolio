@@ -11,6 +11,9 @@
   background-attachment: fixed;
   color: white;
   height: 100vh; }
+  .bienvenida .parr-developer {
+    font-size: 40px;
+    font-weight: lighter; }
 
 .row {
   margin-bottom: 0px; }
@@ -30,31 +33,31 @@ nav {
 .segunda-seccion {
   height: auto;
   padding: 60px;
-  background-color: #f6f2d9; }
+  background-color: #fff; }
   .segunda-seccion .titulo-acercademi {
     font-family: 'Playfair Display', serif;
     font-family: 'Indie Flower', cursive;
     margin-top: 50px;
     color: #3a1a02;
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 60px; }
 
-.parrafo-acercademi {
-  color: #a3814f;
-  font-weight: bolder;
-  font-size: 15px;
-  margin-top: 100px; }
+.linea {
+  height: 2px;
+  background-color: #8d7e6f; }
 
-.titulo-contacto {
-  font-family: 'Playfair Display', serif;
-  font-family: 'Indie Flower', cursive;
-  margin-top: 50px;
-  color: #3a1a02;
-  font-weight: bolder;
-  font-size: 60px; }
+.linea-contacto {
+  height: 2px;
+  background-color: #fff; }
+
+.parrafo-acercademi {
+  color: #8d7e6f;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 80px; }
 
 .img-perfil {
-  border: 6px solid #868160; }
+  border: 4px solid #8d7e6f; }
 
 .img-pc {
   background-image: url(../img/william-iven-8515.jpg);
@@ -80,14 +83,14 @@ nav {
   background-color: #f6f2d9; }
   .tercera-seccion .devicon {
     font-size: 100px;
-    color: #868160; }
+    color: #3a1a02; }
 
 .titulo-skills {
   color: #3a1a02;
   font-family: 'Playfair Display', serif;
   font-family: 'Indie Flower', cursive;
   margin-top: 50px;
-  font-weight: bolder;
+  font-weight: lighter;
   font-size: 60px;
   margin-top: 10px; }
 
@@ -96,7 +99,7 @@ nav {
   font-family: 'Playfair Display', serif;
   font-family: 'Indie Flower', cursive;
   margin-top: 50px;
-  font-weight: bolder;
+  font-weight: lighter;
   font-size: 60px;
   margin-top: 10px; }
 
@@ -126,25 +129,33 @@ nav {
 .portafolio {
   height: auto;
   padding: 60px;
-  background-color: #f6f2d9; }
+  background-color: #fff; }
   .portafolio .titulo-portafolio {
     font-family: 'Playfair Display', serif;
     font-family: 'Indie Flower', cursive;
     margin-top: 50px;
     color: #3a1a02;
-    font-weight: bolder;
+    font-weight: lighter;
     font-size: 60px; }
 
 .img-portafolio {
-  border: 6px solid #868160; }
+  border: 4px solid #8d7e6f; }
 
 .informacion {
   height: auto;
-  color: #868160;
+  color: #3a1a02;
   padding: 60px;
-  background-color: #ddc79d; }
+  background-color: #fff; }
   .informacion .fa {
-    color: #868160; }
+    color: #3a1a02; }
+
+.informacion .titulo-acercademi {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  color: #3a1a02;
+  font-weight: lighter;
+  font-size: 60px; }
 
 .img-portafolio:hover {
   filter: opacity(0.5); }
