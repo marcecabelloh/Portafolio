@@ -5,6 +5,7 @@
 .bienvenida {
   background-image: url(../img/markus-spiske-37930.jpg);
   background-attachment: fixed;
+  opacity: 0.7;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,7 +14,7 @@
   height: 100vh; }
   .bienvenida .parr-developer {
     font-size: 40px;
-    font-weight: lighter; }
+    font-weight: bolder; }
 
 .row {
   margin-bottom: 0px; }
@@ -35,23 +36,14 @@ nav {
   padding: 60px;
   background-color: #fff; }
   .segunda-seccion .titulo-acercademi {
-    font-family: 'Playfair Display', serif;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-top: 50px;
     color: #3a1a02;
-    font-weight: lighter;
     font-size: 60px; }
-
-.linea {
-  height: 2px;
-  background-color: #8d7e6f; }
-
-.linea-contacto {
-  height: 2px;
-  background-color: #fff; }
 
 .parrafo-acercademi {
   color: #8d7e6f;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 15px;
   margin-top: 80px; }
@@ -87,19 +79,16 @@ nav {
 
 .titulo-skills {
   color: #3a1a02;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto', sans-serif;
   margin-top: 50px;
-  font-weight: lighter;
   font-size: 60px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-bottom: 100px; }
 
 .titulo-skills-mobile {
   color: #f6f2d9;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto', sans-serif;
   margin-top: 50px;
-  font-weight: lighter;
   font-size: 60px;
   margin-top: 10px; }
 
@@ -131,31 +120,29 @@ nav {
   padding: 60px;
   background-color: #fff; }
   .portafolio .titulo-portafolio {
-    font-family: 'Playfair Display', serif;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
     margin-top: 50px;
     color: #3a1a02;
-    font-weight: lighter;
     font-size: 60px; }
 
-.img-portafolio {
-  border: 4px solid #8d7e6f; }
+.enlace-portafolio {
+  color: #8d7e6f; }
 
-.informacion {
-  height: auto;
-  color: #3a1a02;
-  padding: 60px;
-  background-color: #fff; }
-  .informacion .fa {
-    color: #3a1a02; }
+.page-footer {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif; }
+  .page-footer .titulo-footer {
+    margin-bottom: 70px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    color: #3a1a02;
+    font-size: 60px; }
 
-.informacion .titulo-acercademi {
-  font-family: 'Playfair Display', serif;
-  font-family: 'Indie Flower', cursive;
-  margin-top: 50px;
-  color: #3a1a02;
-  font-weight: lighter;
-  font-size: 60px; }
+.text-footer {
+  color: #8d7e6f; }
+
+.fa {
+  color: #3a1a02; }
 
 .img-portafolio:hover {
   filter: opacity(0.5); }
