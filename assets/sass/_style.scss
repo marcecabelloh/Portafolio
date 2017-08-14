@@ -5,7 +5,6 @@
 
 .bienvenida{
 	background-image: url(../img/markus-spiske-37930.jpg);
-	background-attachment:fixed;
 	opacity:0.7;
 	@include cajaBienvenida();	
 		.parr-developer{
@@ -13,6 +12,14 @@
 			font-weight:bolder;
 	}
 }
+
+
+@media (max-width:425px){
+	.bienvenida{
+		background-attachment:fixed;
+	}
+}
+
 
 .row{
 	margin-bottom:0px;
@@ -22,14 +29,24 @@ nav{
  	@include navbar();
 }
 
-.fuente-nav{
-	color:$color-caja;
-	font-size:16px;
-	font-weight:bold;
+#sidenav-overlay{
+  background-color: rgba(0,0,0,0);
+
 }
 
-.navbar-fixed{
+
+.hide-on-med-and-down{
 	margin-left:480px;
+}
+
+.material-icons{
+	color:brown;
+}
+
+nav ul a{
+	color:$color-titulo;
+	font-size:16px;
+	font-weight:bold;
 }
 
 .segunda-seccion{
@@ -51,14 +68,25 @@ nav{
 
 .img-pc{
 	background-image: url(../img/artem-sapegin-199614.jpg);
-	background-attachment:fixed;
 	@include cajas();
 }
 
+@media (max-width:425px){
+	.img-pc{
+		background-attachment:fixed;
+	}
+}
+
+
 .img-cafe{
 	background-image: url(../img/artem-sapegin-176819.jpg);
-	background-attachment:fixed;
 	@include cajas();
+}
+
+@media (max-width:425px){
+	.img-cafe{
+		background-attachment:fixed;
+	}
 }
 
 .tercera-seccion{
@@ -82,9 +110,15 @@ nav{
 
 .seccion-foto{
 	background-image:url(../img/lauren-mancke-60627.jpg);
-	background-attachment:fixed;
 	@include cajas();
 }
+
+@media (max-width:425px){
+	.seccion-foto{
+		background-attachment:fixed;
+	}
+}
+
 
 .sec-slider{
 	@include cajas();
@@ -134,9 +168,6 @@ nav{
 	color:$color-titulo;	
 }
 
-.cont-footer{
-	color:$color-parrafo;
-}
 
 //efecto hover sobre imagenes de portafolio
 

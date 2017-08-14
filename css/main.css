@@ -4,7 +4,6 @@
 
 .bienvenida {
   background-image: url(../img/markus-spiske-37930.jpg);
-  background-attachment: fixed;
   opacity: 0.7;
   background-size: cover;
   background-position: center;
@@ -16,20 +15,29 @@
     font-size: 40px;
     font-weight: bolder; }
 
+@media (max-width: 425px) {
+  .bienvenida {
+    background-attachment: fixed; } }
 .row {
   margin-bottom: 0px; }
 
 nav {
-  background-color: transparent !important;
+  background-color: white !important;
   box-shadow: none; }
 
-.fuente-nav {
-  color: #f6f2d9;
+#sidenav-overlay {
+  background-color: rgba(0, 0, 0, 0); }
+
+.hide-on-med-and-down {
+  margin-left: 480px; }
+
+.material-icons {
+  color: brown; }
+
+nav ul a {
+  color: #3a1a02;
   font-size: 16px;
   font-weight: bold; }
-
-.navbar-fixed {
-  margin-left: 480px; }
 
 .segunda-seccion {
   height: auto;
@@ -53,22 +61,28 @@ nav {
 
 .img-pc {
   background-image: url(../img/artem-sapegin-199614.jpg);
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   height: 80vh; }
 
+@media (max-width: 425px) {
+  .img-pc {
+    background-attachment: fixed; } }
 .img-cafe {
   background-image: url(../img/artem-sapegin-176819.jpg);
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   height: 80vh; }
 
+@media (max-width: 425px) {
+  .img-cafe {
+    background-attachment: fixed; } }
 .tercera-seccion {
   height: auto;
   padding: 60px;
@@ -94,17 +108,21 @@ nav {
 
 .seccion-foto {
   background-image: url(../img/lauren-mancke-60627.jpg);
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   height: 80vh; }
 
+@media (max-width: 425px) {
+  .seccion-foto {
+    background-attachment: fixed; } }
 .sec-slider {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   height: 80vh; }
 

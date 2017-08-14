@@ -28,16 +28,38 @@
 <!-- primera seccion -->
 	<section class="bienvenida">
 		<!-- navbar -->
+	<div class="navbar-fixed">
 		<nav>
-			<div class="navbar-fixed">
-				 	<ul class="center hide-on-med-and-down">
-					<li><a class="fuente-nav" href="#segunda-seccion" data-activates="dropdown1">Acerca de mí</a></li>
-					<li><a class="fuente-nav" href="#tercera-seccion" data-activates="dropdown2">Skills</a></li>
-					<li><a href="#portafolio" class="fuente-nav">Portafolio</a></li>
-					<li><a href="#informacion" class="fuente-nav">Contacto</a></li>
+			<div class="nav-wrapper">
+				
+				<ul class="hide-on-med-and-down">
+				<li><a href="#segunda-seccion">Acerca de mí</a></li>
+					<li><a href="#tercera-seccion">Skills</a></li>
+					<li><a href="#portafolio">Portafolio</a></li>
+					<li><a href="#contacto">Contacto</a></li>
 				</ul>
+				<ul  id="slide-out" class="side-nav">
+					<li>
+					<div class="user-view">
+					<div class="background">
+						<img src="img/joshua-k-jackson-261210.jpg">
+					</div>
+						<a href="#!user"><img class="circle" src="img/Snapshot_20130108_14.jpg"></a>
+						<a href="#!name"><span class="white-text name">Marce Cabello Herrera</span></a>
+						<a href="#!email"><span class="white-text email">marcecabello.h@gmail.com</span></a>
+					</div>
+					</li>
+					<li><a href="#segunda-seccion">Acerca de mí</a></li>
+					<li><a href="#tercera-seccion-mobile">Skills</a></li>
+					<li><a href="#portafolio">Portafolio</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 			</div>
-		</nav> <!-- aca termina el navbar -->
+		</nav>
+	</div>
+           <!-- aca termina el navbar -->
+
 <!-- inicio sección home -->
 
 	<div class="container center">
@@ -47,18 +69,18 @@
 						<img src="img/logomarce-03.png" id="logo" class="responsive-img logo center" width="400">
 						<p class="parr-developer">Developer Front-End</p>
 					</div>
+					<div class="fixed-action-btn hide-on-large-only">
+					<a class="btn-floating btn-large brown">
+						<i class="fa fa-pencil" aria-hidden="true"></i>
+					</a>
+					<ul>
+						<li><a class="btn-floating brown" href="#segunda-seccion"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+						<li><a class="btn-floating darken-1 brown" href="#tercera-seccion-mobile"><i class="fa fa-wrench" aria-hidden="true"></i></a></li>
+						<li><a class="btn-floating brown" href="#portafolio"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
+						<li><a class="btn-floating brown" href="#contacto"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					</ul>
 				</div>
-			</div>
-			<div class="fixed-action-btn hide-on-large-only">
-				<a class="btn-floating btn-large brown">
-					<i class="fa fa-pencil" aria-hidden="true"></i>
-				</a>
-				<ul>
-					<li><a class="btn-floating brown" href="#segunda-seccion"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-					<li><a class="btn-floating brown darken-1" href="#tercera-seccion-mobile"><i class="fa fa-wrench" aria-hidden="true"></i></a></li>
-					<li><a class="btn-floating brown" href="#portafolio"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
-					<li><a class="btn-floating brown" href="#informacion"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-				</ul>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -82,19 +104,7 @@
 					</div>
 				</div>
 				<div class="col xl12 l12 m12 s12"><br>
-				</div>
-				<!-- boton flotante -->
-				<div class="fixed-action-btn hide-on-small-only">
-					<a class="btn-floating btn-large brown">
-						<i class="fa fa-pencil" aria-hidden="true"></i>
-					</a>
-					<ul>
-						<li><a class="btn-floating brown" href="#segunda-seccion"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-						<li><a class="btn-floating brown darken-1" href="#tercera-seccion"><i class="fa fa-wrench" aria-hidden="true"></i></a></li>
-						<li><a class="btn-floating brown" href="#portafolio"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
-						<li><a class="btn-floating brown" href="#informacion"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
+				</div>	
 			</div>
 		</div>
 	</div>
@@ -263,7 +273,7 @@
 							</div>
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4">Save the Koala<i class="material-icons right">more_vert</i></span>
-								<div class="row">
+								<div class="row"><br>
 									<div class="col col xl6 l6 m6 s6">
 										<p><a href="https://marcecabelloh.github.io/save-the-koala/" class="enlace-portafolio">Demo</a></p>
 									</div>
@@ -290,7 +300,7 @@
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4">Lab Studio<i class="material-icons right">more_vert</i></span>
 
-								<div class="row">
+								<div class="row"><br>
 									<div class="col col xl6 l6 m6 s6">
 										<p><a href="https://marcecabelloh.github.io/lab-car/" class="enlace-portafolio">Demo</a></p>
 									</div>
@@ -314,7 +324,7 @@
 							</div>
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4">Labcar<i class="material-icons right">more_vert</i></span>
-								<div class="row">
+								<div class="row"><br>
 									<div class="col col xl6 l6 m6 s6">
 										<p><a href="https://marcecabelloh.github.io/labcar/" class="enlace-portafolio">Demo</a></p>
 									</div>
@@ -343,7 +353,7 @@
 							</div>
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4">Translab<i class="material-icons right">more_vert</i></span>
-								<div class="row">
+								<div class="row"><br>
 									<div class="col col xl6 l6 m6 s6">
 										<p><a href="https://marcecabelloh.github.io/trans-lab/" class="enlace-portafolio">Demo</a></p>
 									</div>
@@ -367,7 +377,7 @@
 							</div>
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4">Google Design<i class="material-icons right">more_vert</i></span>
-								<div class="row">
+								<div class="row"><br>
 									<div class="col col xl6 l6 m6 s6">
 										<p><a href="https://marcecabelloh.github.io/google-enunciado/" class="enlace-portafolio">Demo</a></p>
 									</div>
@@ -391,7 +401,7 @@
 							</div>
 							<div class="card-content">
 								<span class="card-title activator grey-text text-darken-4">Potafolio Sass<i class="material-icons right">more_vert</i></span>
-								<div class="row">
+								<div class="row"><br>
 									<div class="col col xl6 l6 m6 s6">
 										<p><a href="https://marcecabelloh.github.io/portafolio-sass/" class="enlace-portafolio">Demo</a></p>
 									</div>
@@ -428,7 +438,7 @@
 
 <!-- contacto footer-->
 
-    <footer class="page-footer center">
+    <footer class="page-footer center" id="contacto">
           <div class="container">
             <div class="row">
               <div class="col xl12 l12 m12 s12">
@@ -457,15 +467,15 @@
           </div><br><br>
           <div class="footer-copyright">
             <div class="container grey-text">
-            © 2017 Marce Cabello Herrera
+             © 2017 Marce Cabello Herrera
             </div>
           </div>
         </footer>
 <!-- termino seccion contacto footer -->
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <script src="https://use.fontawesome.com/4154d90246.js" ></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

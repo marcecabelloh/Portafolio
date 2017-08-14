@@ -2,6 +2,7 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-attachment:fixed;
 	color: white;
 	height:80vh;
 }
@@ -16,7 +17,7 @@
 }
 
 @mixin navbar(){
-	background-color: transparent !important;
+	background-color: white !important;
  	box-shadow:none;
 }
 
