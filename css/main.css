@@ -22,8 +22,12 @@ nav {
   background-color: white !important;
   box-shadow: none; }
 
-#sidenav-overlay {
-  background-color: rgba(0, 0, 0, 0); }
+.logo-nav {
+  font-family: 'Dancing Script', cursive;
+  color: #ccb792; }
+
+ul:not(.browser-default) {
+  padding-left: 10px; }
 
 .hide-on-med-and-down {
   margin-left: 480px; }
@@ -57,7 +61,7 @@ nav ul a {
   border: 4px solid #8d7e6f; }
 
 .parallax-container {
-  height: 500px; }
+  height: 400px; }
 
 .tercera-seccion {
   height: auto;
@@ -135,13 +139,13 @@ nav ul a {
 
 #logo {
   animation-name: logo;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-fill-mode: forwards; }
 
 @keyframes logo {
   0% {
-    transform: translateY(-50%); }
-  80% {
-    transform: translateY(10%); } }
+    transform: translateY(-70%); }
+  90% {
+    transform: translateY(13%); } }
 
 /*# sourceMappingURL=main.css.map */

@@ -22,11 +22,15 @@ nav{
  	@include navbar();
 }
 
-#sidenav-overlay{
-  background-color: rgba(0,0,0,0);
-
+.logo-nav{
+	font-family: 'Dancing Script', cursive;
+	color:$color-logo;
 }
 
+
+ul:not(.browser-default) {
+    padding-left: 10px;
+}
 
 .hide-on-med-and-down{
 	margin-left:480px;
@@ -60,7 +64,7 @@ nav ul a{
 }
 
 .parallax-container {
-      height: 500px;
+      height: 400px;
     }
 
 .tercera-seccion{
@@ -147,16 +151,16 @@ border:6px solid;
 
 #logo{
 	animation-name: logo;
-	animation-duration:2s;
+	animation-duration:5s;
 	animation-fill-mode: forwards;
 }
 
 @keyframes logo{
 	0%{
-		transform:translateY(-50%);
+		transform:translateY(-70%);
 	}
-	80%{
-		transform:translateY(10%);
+	90%{
+		transform:translateY(13%);
 	}
 	
 }
