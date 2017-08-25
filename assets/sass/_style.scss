@@ -5,14 +5,18 @@
 
 .bienvenida{
 	background-image: url(../img/markus-spiske-37930.jpg);
-	opacity:0.7;
 	@include cajaBienvenida();	
 		.parr-developer{
-			font-size:40px;
+			font-size:50px;
 			font-weight:bolder;
 	}
 }
 
+.prueba{
+	 height:100%;
+	 background-color:rgba(0,0,0,0.3);
+
+}
 
 .row{
 	margin-bottom:0px;
@@ -33,7 +37,7 @@ ul:not(.browser-default) {
 }
 
 .hide-on-med-and-down{
-	margin-left:480px;
+	margin-left:460px;
 }
 
 .material-icons{
@@ -65,7 +69,15 @@ nav ul a{
 
 .parallax-container {
       height: 400px;
-    }
+	  background-color:rgba(0,0,0,0.2);
+	  	.frase{
+			margin-top:130px;
+			font-size:30px;
+			font-weight:bolder;
+			opacity:none;
+	}
+}
+
 
 .tercera-seccion{
 	height:$height;
